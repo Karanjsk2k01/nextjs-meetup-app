@@ -3,7 +3,8 @@
   text-align: center;
 }
 .details img{
-  object-fit: cover;
+  object-fit: contain;
   border-radius: 12px;
   margin-bottom: 10px;
+  width: 30rem;
 }
