@@ -1,0 +1,9 @@
+.details{
+  padding: 10px;
+  text-align: center;
+}
+.details img{
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 10px;
+}
