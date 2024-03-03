@@ -1,10 +1,21 @@
 import MeetupList from "../components/meetups/MeetupList";
-import {MongoClient} from 'mongodb';
+import { MongoClient } from 'mongodb';
+import Head from 'next/head';
 
 function Homepage(props)
 {
   return (
-    <MeetupList meetups={props.meetups}/>
+    <>
+      <Head>
+        <title>NextjsMeetup</title>
+        <meta
+          name="description"
+          content="Browse a huge list of higly active Next js meetup"
+        />
+      </Head>
+      <MeetupList meetups={props.meetups}/>
+    </>
+
   )
 }
 
